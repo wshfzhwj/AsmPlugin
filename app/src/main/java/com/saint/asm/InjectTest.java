@@ -3,6 +3,7 @@ package com.saint.asm;
 import android.util.Log;
 
 public class InjectTest {
+    @PluginTest
     public void sayHello(){
         Log.e("InjectTest","你好啊 啊啊啊啊");
         System.out.println("你好");

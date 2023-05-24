@@ -16,13 +16,13 @@ import javax.inject.Inject;
  * 对MethodVisitor进行了扩展，能让我们更轻松的进行分析
  */
 public class MethodAdapterVisitor extends AdviceAdapter {
-    public static final String DESCRIPTOR_INJECT_CLASS = "Lcom/saint/asm/InjectTest;";
+    public static final String DESCRIPTOR_INJECT_CLASS = "Lcom/saint/asm/PluginTest;";
 //    public static final String DESCRIPTOR_INJECT_CLASS = "com/saint/asm/InjectTest";
 
 
     private int start;
     private int end;
-    private boolean inject = true;
+    private boolean inject = false;
 
     /**
      * Constructs a new {@link AdviceAdapter}.
