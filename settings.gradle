@@ -1,2 +1,3 @@
 rootProject.name = "AsmApp"
 include ':app'
+include ':plugin'
