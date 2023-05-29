@@ -1,4 +1,4 @@
-package com.saint.plugin;
+package com.saint.track;
 
 import org.objectweb.asm.AnnotationVisitor;
 import org.objectweb.asm.MethodVisitor;
@@ -6,8 +6,6 @@ import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.Type;
 import org.objectweb.asm.commons.AdviceAdapter;
 import org.objectweb.asm.commons.Method;
-
-import javax.inject.Inject;
 
 /**
  * author: DragonForest
